@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Калькулятор чаевых</string>
+    <string name="bill_amount_label">Сумма счета (до двух знаков после запятой)</string>
+    <string name="bill_amount_hint">Например: 1200.50</string>
+    <string name="tip_percent_label">Процент чаевых (целое число 5–30, по умолчанию 15%)</string>
+    <string name="default_tip_percent">15</string>
+    <string name="people_count_label">Количество человек (целое число 1–20, по умолчанию 1)</string>
+    <string name="default_people_count">1</string>
+    <string name="rounding_label">Округление суммы чаевых</string>
+    <string name="round_down">В меньшую сторону</string>
+    <string name="round_up">В большую сторону</string>
+    <string name="round_nearest">До ближайшего целого</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="tip_amount_empty">Сумма чаевых: —</string>
+    <string name="total_amount_empty">Общая сумма: —</string>
+    <string name="per_person_amount_empty">Сумма на каждого: —</string>
 </resources>
