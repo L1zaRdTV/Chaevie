@@ -12,6 +12,9 @@
     <string name="round_nearest">До ближайшего целого</string>
     <string name="calculate">Рассчитать</string>
     <string name="tip_amount_empty">Сумма чаевых: —</string>
+    <string name="tip_amount_value">Сумма чаевых: %1$s</string>
     <string name="total_amount_empty">Общая сумма: —</string>
+    <string name="total_amount_value">Общая сумма: %1$s</string>
     <string name="per_person_amount_empty">Сумма на каждого: —</string>
+    <string name="per_person_amount_value">Сумма на каждого: %1$s</string>
 </resources>

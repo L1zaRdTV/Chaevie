@@ -1,5 +1,5 @@
 <resources>
     <color name="background">#FFF8F0</color>
     <color name="primary_text">#2D221C</color>
-    <color name="accent">#7A4E2D</color>
+    <color name="error_text">#B00020</color>
 </resources>
