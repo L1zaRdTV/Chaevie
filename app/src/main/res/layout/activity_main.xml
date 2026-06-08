@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Сумма счета (до двух знаков после запятой)"
+            android:text="@string/bill_amount_label"
             android:textColor="@color/primary_text"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -33,7 +33,7 @@
             android:id="@+id/billAmountInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Например: 1200.50"
+            android:hint="@string/bill_amount_hint"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
             android:singleLine="true"
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Процент чаевых (целое число 5–30, по умолчанию 15%)"
+            android:text="@string/tip_percent_label"
             android:textColor="@color/primary_text"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -52,19 +52,19 @@
             android:id="@+id/tipPercentInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="15"
+            android:hint="@string/default_tip_percent"
             android:importantForAutofill="no"
             android:inputType="number"
             android:maxLength="2"
             android:singleLine="true"
-            android:text="15"
+            android:text="@string/default_tip_percent"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Количество человек (целое число 1–20, по умолчанию 1)"
+            android:text="@string/people_count_label"
             android:textColor="@color/primary_text"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -73,19 +73,19 @@
             android:id="@+id/peopleCountInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="1"
+            android:hint="@string/default_people_count"
             android:importantForAutofill="no"
             android:inputType="number"
             android:maxLength="2"
             android:singleLine="true"
-            android:text="1"
+            android:text="@string/default_people_count"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Округление суммы чаевых"
+            android:text="@string/rounding_label"
             android:textColor="@color/primary_text"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -101,21 +101,21 @@
                 android:id="@+id/roundDownButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="В меньшую сторону"
+                android:text="@string/round_down"
                 android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/roundUpButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="В большую сторону"
+                android:text="@string/round_up"
                 android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/roundNearestButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="До ближайшего целого"
+                android:text="@string/round_nearest"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -124,7 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Рассчитать"
+            android:text="@string/calculate"
             android:textAllCaps="false" />
 
         <TextView
@@ -142,7 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Сумма чаевых: —"
+            android:text="@string/tip_amount_empty"
             android:textColor="@color/primary_text"
             android:textSize="18sp" />
 
@@ -151,7 +151,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Общая сумма: —"
+            android:text="@string/total_amount_empty"
             android:textColor="@color/primary_text"
             android:textSize="18sp" />
 
@@ -160,7 +160,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Сумма на каждого: —"
+            android:text="@string/per_person_amount_empty"
             android:textColor="@color/primary_text"
             android:textSize="18sp" />
     </LinearLayout>
